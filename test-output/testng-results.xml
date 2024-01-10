@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-09T18:28:57 IST" name="Default suite" finished-at="2024-01-09T18:29:16 IST" duration-ms="19131">
+    <groups>
+    </groups>
+    <test started-at="2024-01-09T18:28:57 IST" name="Default test" finished-at="2024-01-09T18:29:16 IST" duration-ms="19131">
+      <class name="Tests.LoginTest">
+        <test-method is-config="true" signature="InitalizeExtentReport()[pri:0, instance:Tests.LoginTest@5890e879]" started-at="2024-01-09T18:28:57 IST" name="InitalizeExtentReport" finished-at="2024-01-09T18:28:57 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitalizeExtentReport -->
+        <test-method is-config="true" signature="getnameMethod(org.testng.ITestContext)[pri:0, instance:Tests.LoginTest@5890e879]" started-at="2024-01-09T18:28:57 IST" name="getnameMethod" finished-at="2024-01-09T18:28:57 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ea7a4c3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getnameMethod -->
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Tests.LoginTest@5890e879]" started-at="2024-01-09T18:28:57 IST" name="OpenApp" finished-at="2024-01-09T18:29:04 IST" duration-ms="6560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:49, instance:Tests.LoginTest@5890e879]" started-at="2024-01-09T18:29:04 IST" name="LoginPage" data-provider="testdata" finished-at="2024-01-09T18:29:16 IST" duration-ms="11504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demouser12345@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Welcome@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@5890e879]" started-at="2024-01-09T18:29:16 IST" name="generateTestStatus" finished-at="2024-01-09T18:29:16 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.LoginPage(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=LoginPage status=SUCCESS method=LoginTest.LoginPage(java.lang.String,java.lang.String)[pri:49, instance:Tests.LoginTest@5890e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:Tests.LoginTest@5890e879]" started-at="2024-01-09T18:29:16 IST" name="CloseApp" finished-at="2024-01-09T18:29:16 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="generateReports()[pri:0, instance:Tests.LoginTest@5890e879]" started-at="2024-01-09T18:29:16 IST" name="generateReports" finished-at="2024-01-09T18:29:18 IST" duration-ms="1499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
